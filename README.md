@@ -1,6 +1,6 @@
 # Introduction to HTML
 
-HTML is the language you have spent the majority of your time with as a user of the internet. This is because HTML is the language of the web. Everything else you've ever heard of around web programming boils down to just modifying HTML and it's close sibling: CSS. We'll get into CSS in a bit, but for now let's investigate HTML.
+HTML is the language you have spent the majority of your time with as a user of the internet. This is because HTML is the language of the web. Everything else you've ever heard of around web programming boils down to just modifying HTML and its close sibling: CSS. We'll get into CSS in a bit, but for now let's investigate HTML.
 
 The fundamental building block of HTML is what's called a _tag_. Tags allow web developers to tell things to the browser like "make this text a header" or "include this image". Tags all follow the same format like this:
 
@@ -19,7 +19,7 @@ Go ahead and add in more `<br>` tags and see what happens. Go ahead and...break 
 
 ### Open and Close Tags
 
-While the break tag is very useful, what if our designer says we need a header. There is a tag for that. It's the `<h1>` tag. This will make the text much larger and bold. Obviously, we don't want all of our text as a header. To tell the browser which text should be a header, and which shouldn't we use _closing tags_. Closing tags are just exactly the same as tags you've seen before but prefixed with a `/`. The closing tag for `<h1>` would be `</h1>`. Here is an example
+While the break tag is very useful, what if our designer says we need a header? There is a tag for that. It's the `<h1>` tag. This will make the text much larger and bold. Obviously, we don't want all of our text as a header. To tell the browser which text should be a header, and which shouldn't we use _closing tags_. Closing tags are just exactly the same as tags you've seen before but prefixed with a `/`. The closing tag for `<h1>` would be `</h1>`. Here is an example
 
 <iframe height='265' scrolling='no' title='closing tags' src='//codepen.io/joemburgess/embed/BZpMPJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/joemburgess/pen/BZpMPJ/'>closing tags</a> by Joe Burgess (<a href='https://codepen.io/joemburgess'>@joemburgess</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
